@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Project Palooza",
+    "subtitle": "Built with Zara",
+    "description": "Project Palooza is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://df4f6f3e0b594fb89b250d64715291a0-efxn.vercel.app",
+    "splashImageUrl": "https://df4f6f3e0b594fb89b250d64715291a0-efxn.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://df4f6f3e0b594fb89b250d64715291a0-efxn.vercel.app/image.png",
+    "tagline": "Project Palooza",
+    "screenshotUrls": [
+      "https://df4f6f3e0b594fb89b250d64715291a0-efxn.vercel.app/screenshot.png",
+      "https://df4f6f3e0b594fb89b250d64715291a0-efxn.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://df4f6f3e0b594fb89b250d64715291a0-efxn.vercel.app/api/webhook"
+  }
+}
