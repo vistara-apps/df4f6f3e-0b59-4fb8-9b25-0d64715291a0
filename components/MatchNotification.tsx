@@ -20,7 +20,7 @@ export function MatchNotification({
       <div className="bg-surface rounded-lg p-6 max-w-sm w-full card-shadow">
         <div className="text-center">
           <div className="text-6xl mb-4">🎉</div>
-          <h2 className="text-2xl font-bold text-text-primary mb-2">It's a Match!</h2>
+          <h2 className="text-2xl font-bold text-text-primary mb-2">It&apos;s a Match!</h2>
           <p className="text-text-secondary mb-6">
             You both are interested in <span className="font-semibold text-primary">
               {match.project?.projectName}
