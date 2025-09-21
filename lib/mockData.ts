@@ -1,0 +1,105 @@
+import { User, Project, Match } from './types';
+
+export const mockUser: User = {
+  userId: '1',
+  username: 'alex_dev',
+  bio: 'Full-stack developer passionate about Web3 and creative projects',
+  skills: ['React', 'TypeScript', 'Solidity', 'Design'],
+  interests: ['DeFi', 'NFTs', 'Gaming', 'Art'],
+  farcasterId: 'alex_dev',
+  avatar: '👨‍💻',
+};
+
+export const mockProjects: Project[] = [
+  {
+    projectId: '1',
+    projectName: 'DeFi Dashboard',
+    description: 'Building a comprehensive DeFi portfolio tracker with real-time analytics and yield farming opportunities.',
+    requiredSkills: ['React', 'Web3', 'Design'],
+    desiredOutcomes: ['Launch MVP', 'Gain users', 'Monetize'],
+    creatorId: '2',
+    creator: {
+      userId: '2',
+      username: 'crypto_mike',
+      bio: 'DeFi enthusiast and product manager',
+      skills: ['Product Management', 'DeFi', 'Strategy'],
+      interests: ['DeFi', 'Analytics'],
+      avatar: '💰',
+    },
+    category: 'DeFi',
+    tags: ['dashboard', 'analytics', 'yield'],
+  },
+  {
+    projectId: '2',
+    projectName: 'NFT Art Marketplace',
+    description: 'Creating a curated NFT marketplace focused on LGBTQ+ artists and inclusive digital art.',
+    requiredSkills: ['Solidity', 'React', 'IPFS'],
+    desiredOutcomes: ['Build community', 'Support artists', 'Create value'],
+    creatorId: '3',
+    creator: {
+      userId: '3',
+      username: 'rainbow_artist',
+      bio: 'Digital artist and community builder',
+      skills: ['Art', 'Community', 'Marketing'],
+      interests: ['NFTs', 'Art', 'LGBTQ+'],
+      avatar: '🎨',
+    },
+    category: 'NFT',
+    tags: ['art', 'marketplace', 'community'],
+  },
+  {
+    projectId: '3',
+    projectName: 'Web3 Dating App',
+    description: 'Revolutionary dating app using blockchain for verified profiles and token-based matching.',
+    requiredSkills: ['Mobile Dev', 'Blockchain', 'UX Design'],
+    desiredOutcomes: ['Prototype', 'User testing', 'Funding'],
+    creatorId: '4',
+    creator: {
+      userId: '4',
+      username: 'love_chain',
+      bio: 'Entrepreneur building the future of dating',
+      skills: ['Business', 'Strategy', 'Networking'],
+      interests: ['Dating', 'Social', 'Innovation'],
+      avatar: '💕',
+    },
+    category: 'Social',
+    tags: ['dating', 'social', 'mobile'],
+  },
+  {
+    projectId: '4',
+    projectName: 'Gaming DAO',
+    description: 'Decentralized gaming community with play-to-earn mechanics and governance tokens.',
+    requiredSkills: ['Game Dev', 'Smart Contracts', 'Community'],
+    desiredOutcomes: ['Launch game', 'Build DAO', 'Token launch'],
+    creatorId: '5',
+    creator: {
+      userId: '5',
+      username: 'game_master',
+      bio: 'Game developer and DAO enthusiast',
+      skills: ['Game Development', 'Unity', 'Blockchain'],
+      interests: ['Gaming', 'DAOs', 'Tokens'],
+      avatar: '🎮',
+    },
+    category: 'Gaming',
+    tags: ['gaming', 'dao', 'play-to-earn'],
+  },
+];
+
+export const mockMatches: Match[] = [
+  {
+    matchId: '1',
+    userId1: '1',
+    userId2: '2',
+    projectId: '1',
+    project: mockProjects[0],
+    matchedAt: new Date('2024-01-15'),
+  },
+  {
+    matchId: '2',
+    userId1: '1',
+    userId2: '3',
+    projectId: '2',
+    project: mockProjects[1],
+    matchedAt: new Date('2024-01-14'),
+  },
+];
