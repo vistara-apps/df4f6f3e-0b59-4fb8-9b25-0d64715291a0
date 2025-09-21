@@ -16,7 +16,7 @@ export default function Error({
             Oops! Something went wrong
           </h2>
           <p className="text-text-secondary mb-6">
-            Don't worry, even the best projects have bugs. Let's get you back to finding your perfect project partner!
+            Don&apos;t worry, even the best projects have bugs. Let&apos;s get you back to finding your perfect project partner!
           </p>
           <button
             onClick={reset}
